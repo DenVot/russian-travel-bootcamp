@@ -7,7 +7,7 @@
 
 @media (min-width: 320px) {
     .header {
-        padding: 16px;
+        padding: 16px 16px;
     }
 }
 
