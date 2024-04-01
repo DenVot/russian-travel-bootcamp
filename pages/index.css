@@ -24,3 +24,15 @@
 
 @import "../blocks/photo-grid/photo-grid.css";
 @import "../blocks/photo-grid/__item/photo-grid__item.css";
+
+@import "../blocks/places/places.css";
+
+@import "../blocks/place/__image/place__image.css";
+@import "../blocks/place/__title/place__title.css";
+@import "../blocks/place/__website/place__website.css";
+@import "../blocks/place/__website/__link/place__website__link.css";
+@import "../blocks/place/__website/__url-heading/place__website__url-heading.css";
+@import "../blocks/place/__row/place__row.css";
+@import "../blocks/place/__text/place__text.css";
+@import "../blocks/place/__paragraph/place__paragraph.css";
+@import "../blocks/place/place.css";
