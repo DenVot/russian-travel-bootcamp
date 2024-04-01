@@ -1,0 +1,22 @@
+.cover__overlay {
+    aspect-ratio: 1024 / 640;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("../../../images/overlay.jpeg") center/cover;
+    position: relative;
+
+    gap: 32px;
+}
+
+.cover__overlay::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background: #2A2C2F;
+    opacity: 30%;
+}
