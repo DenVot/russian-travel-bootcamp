@@ -1,7 +1,3 @@
-.cover {
-    width: 100%;
-}
-
 @media (min-width: 1280px) {
     .cover {
         padding-left: 48px;
