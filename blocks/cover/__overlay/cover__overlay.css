@@ -7,8 +7,9 @@
     justify-content: center;
     background: url("../../../images/overlay.jpeg") center/cover;
     position: relative;
-
     gap: 32px;
+    color: #FFF;
+    text-decoration: none;
 }
 
 .cover__overlay::after {
@@ -16,7 +17,11 @@
     position: absolute;
     width: 100%;
     height: 100%;
-
     background: #2A2C2F;
     opacity: 30%;
+    transition: opacity 0.3s;
+}
+
+.cover__overlay:hover::after {
+    opacity: 80%;
 }

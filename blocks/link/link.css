@@ -1,8 +1,13 @@
 .link {
     color: #FFFFFF;
     text-decoration: underline;
+    transition: opacity 0.3s;
 }
 
 .link:visited {
     color: #FFFFFF;
+}
+
+.link:hover {
+    opacity: 80%;
 }
