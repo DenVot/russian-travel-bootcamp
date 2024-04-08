@@ -1,8 +1,27 @@
 .places {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 92px;
-    padding-bottom: 92px;
-    gap: 80px;
+    gap: 50px;
+    width: 984px;
+    margin: 56px auto 92px auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .places {
+        width: 90.6%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places {
+        width: 93.75%;
+        margin: 56px auto 90px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places {
+        width: 100%;
+        margin: 56px auto 66px auto;
+    }
 }

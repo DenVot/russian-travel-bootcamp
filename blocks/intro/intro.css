@@ -1,10 +1,25 @@
 .intro {
-    padding-left: 48px;
-    padding-top: 64px;
+    justify-content: left;
+    width: 984px;
+    margin: 48px auto 92px auto;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1279px) {
     .intro {
-        padding-left: 16px;
+        width: 90.6%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro {
+        width: 93.75%;
+        margin: 48px auto 88px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        width: 90%;
+        margin: 48px auto 64px auto;
     }
 }

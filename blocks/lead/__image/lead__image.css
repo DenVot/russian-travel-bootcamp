@@ -1,5 +1,5 @@
 .lead__image {
-    max-width: 928px;
+    width: 100%;
     object-fit: contain;
     display: block;
 }
