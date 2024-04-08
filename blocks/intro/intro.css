@@ -2,6 +2,7 @@
     justify-content: left;
     width: 984px;
     margin: 48px auto 92px auto;
+    font-family: Inter, sans-serif;
 }
 
 @media screen and (max-width: 1279px) {
