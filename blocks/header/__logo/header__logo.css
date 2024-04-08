@@ -9,10 +9,3 @@
         height: 52px;
     }
 }
-
-@media (min-width: 1024px) {
-    .header__logo {
-        width: 176px;
-        height: 52px;
-    }
-}

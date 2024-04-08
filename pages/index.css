@@ -1,8 +1,10 @@
-@import "../vendor/root.css";
+@import "../vendor/normalize.css";
+@import "../variables/root.css";
 @import "../vendor/fonts.css";
 
+@import "../blocks/main/main.css";
+
 @import "../blocks/link/link.css";
-@import "../blocks/link/_no-underline/link_no-underline.css";
 
 @import "../blocks/body/body.css";
 

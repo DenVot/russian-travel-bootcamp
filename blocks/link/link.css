@@ -2,7 +2,7 @@
     color: #FFFFFF;
     text-decoration: underline;
     transition: opacity 0.3s;
-    font-family: Inter, sans-serif;
+    font-family: 'Inter', ‘Arial’, sans-serif;
 }
 
 .link:visited {
